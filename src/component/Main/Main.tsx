@@ -1,8 +1,9 @@
 import { Skills } from "./Skills.tsx";
+import style from './Main.module.scss'
 
 export const Main = () => {
   return (
-    <main>
+    <main id={style.main}>
       <section>
         <Skills
           title="Frontend"

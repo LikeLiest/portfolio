@@ -1,16 +1,12 @@
+import style from "./Header.module.scss";
+
 export const Header = () => {
   return (
-    <header>
-      <h1>Developer portfolio</h1>
-
-      <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>Contacts</li>
-        <li>
-            <button>CHANGE THEME</button>
-        </li>
-      </ul>
+    <header className={style.header}>
+      <h1>Hi, my name is Rasim</h1>
+      <h2>a fullstack developer</h2>
+      <h3>with passion for learning and creating.</h3>
+      <button>????</button>
     </header>
   );
 };
