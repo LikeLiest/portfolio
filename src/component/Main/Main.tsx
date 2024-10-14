@@ -1,5 +1,5 @@
 import { Skills } from "./Skills.tsx";
-import style from './Main.module.scss'
+import style from "./Main.module.scss";
 
 export const Main = () => {
   return (
@@ -7,7 +7,7 @@ export const Main = () => {
       <section>
         <Skills
           title="Frontend"
-          skills="React, ReactRouter, NextJs, TypeScript/JavaScript, NPM, SCCS, TailWind, Bootstrap  "
+          skills="React, ReactRouter, NextJS, TypeScript/JavaScript, NPM, SCCS, TailWind, Bootstrap"
         />
         <Skills
           title="Backend"
