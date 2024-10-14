@@ -16,6 +16,9 @@ $main_hover_color: #5861ff;
   align-items: center;
   height: 100%;
   gap: 18px;
+  margin: auto;
+  text-align: center;
+  padding: 24px;
 }
 
 .header_wrapper em {
@@ -23,11 +26,11 @@ $main_hover_color: #5861ff;
 }
 
 .header_wrapper > h1 {
-  font-size: 50px;
+  font-size:clamp(3rem, 2vw, 5rem);
 }
 
 .header_wrapper > h2 {
-  font-size: 42px;
+  font-size:clamp(2.4rem, 2vw, 4rem);
 }
 
 .header_wrapper > button {
