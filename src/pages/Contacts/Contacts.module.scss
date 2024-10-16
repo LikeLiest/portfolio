@@ -1,0 +1,61 @@
+#contacts {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  padding: 48px;
+  flex: 1;
+  background-color: #dcdcdc;
+  color: black;
+}
+
+#contacts > h1 {
+  color: #646cff;
+  margin-bottom: 72px;
+}
+
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.contactWrapper > a {
+  cursor: pointer;
+  padding: 16px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  transition: .05s ease-in;
+}
+
+.contactWrapper > a:hover {
+  border: 1px solid #646cff;
+}
+
+.contactWrapper > div,
+.contactWrapper > a > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contactWrapper > div > h1,
+.contactWrapper > a > div > h1 {
+  font-size: clamp(2rem, 1vw, 3rem);
+  font-weight: 500;
+}
+
+.contactWrapper > div > h2,
+.contactWrapper > a > div > h2 {
+  font-size: clamp(1rem, 1vw, 2rem);
+  font-weight: 400;
+}
+
+#contacts > div > h1 {
+  font-size: clamp(2rem, 2vw, 3rem);
+}

@@ -4,12 +4,12 @@ export const Nav = () => {
   return (
     <nav className={style.nav}>
       <div>
-        <a href="./home">
+        <a href="./">
           <strong>Developer</strong> portfolio
         </a>
         <ul>
           <li>
-            <a href="./home" className="active">
+            <a href="./" className="active">
               Home
             </a>
           </li>
