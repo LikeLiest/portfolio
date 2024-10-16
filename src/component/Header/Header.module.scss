@@ -7,6 +7,10 @@ $main_hover_color: #5861ff;
   background-position: center;
   background-size: contain;
   min-height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header_wrapper {

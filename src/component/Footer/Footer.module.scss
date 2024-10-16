@@ -1,0 +1,24 @@
+.footer {
+  padding: 48px;
+}
+
+.footer ul {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+}
+
+.footer > p {
+  margin: auto;
+  word-break: break-all;
+  margin-top: 24px;
+  max-width: 500px;
+  color: #666;
+  font-weight: bold;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-indent: 24px;
+}

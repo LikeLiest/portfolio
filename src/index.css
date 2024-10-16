@@ -4,19 +4,32 @@
   object-fit: cover;
 }
 
+*::selection {
+  /* background-color: #2b2b2b; */
+  /* color: white; */
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-html,body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
 
 li {
   list-style: none;
+}
+
+.source-code-pro-normal {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #root {
@@ -31,7 +44,7 @@ li {
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -51,6 +64,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -63,6 +77,10 @@ h1 {
   line-height: 1.1;
 }
 
+img {
+  user-select: none;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -72,6 +90,7 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
+  user-select: none;
   transition: border-color 0.25s;
 }
 button:hover {

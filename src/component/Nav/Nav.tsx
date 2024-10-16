@@ -4,21 +4,20 @@ export const Nav = () => {
   return (
     <nav className={style.nav}>
       <div>
-        <a href="./index.html">
+        <a href="./home">
           <strong>Developer</strong> portfolio
         </a>
         <ul>
           <li>
-            <a href="#" className="active">Home</a>
+            <a href="./home" className="active">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="./projects">Projects</a>
           </li>
           <li>
-            <a href="#">Contacts</a>
-          </li>
-          <li>
-            <button>CHANGE THEME</button>
+            <a href="./contacts">Contacts</a>
           </li>
         </ul>
       </div>

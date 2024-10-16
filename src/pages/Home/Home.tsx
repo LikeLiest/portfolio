@@ -1,9 +1,11 @@
 import { Skills } from "./Skills.tsx";
-import style from "./Main.module.scss";
+import style from "./Home.module.scss";
+import { Header } from "../../component/Header/Header.tsx";
 
-export const Main = () => {
+export const Home = () => {
   return (
     <main id={style.main}>
+      <Header />
       <section>
         <Skills
           title="Frontend"

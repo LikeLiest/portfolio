@@ -2,13 +2,15 @@ $nav-border-bottom-color: #3d3d3d;
 
 .nav {
   padding: 20px 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border-bottom: 1px solid $nav-border-bottom-color;
 }
 
 .nav > div {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
   padding: 0 15px;
@@ -21,7 +23,6 @@ $nav-border-bottom-color: #3d3d3d;
   gap: 8px;
 }
 
-// 1 rem = 16px
 .nav > div > a {
   letter-spacing: 2px;
   font-size: clamp(24px, 1.4vw, 3rem);

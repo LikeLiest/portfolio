@@ -1,16 +1,29 @@
-export const Footer = () => {
-    return (
-        <footer>
-            <ul>
-                <li>GITHUB</li>
-                <li>HH</li>
-                <li>TG</li>
-                <li>VK</li>
-            </ul>
+import style from "./Footer.module.scss";
 
-            <p>
-                2024. MySite.ru
-            </p>
-        </footer>
-    )
-}
+import gitHubIcon from "../../../public/icons/gitHub.svg";
+import vkIcon from "../../../public/icons/vk.svg";
+
+export const Footer = () => {
+  return (
+    <footer className={style.footer}>
+      <ul>
+        <li>
+          <a href="#">
+            <img src={gitHubIcon} alt="gitHub" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src={vkIcon} alt="youtube" />
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+        voluptates iste cumque nemo provident nam blanditiis recusandae rerum,
+        odit tenetur.
+      </p>
+    </footer>
+  );
+};

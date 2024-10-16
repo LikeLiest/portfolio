@@ -1,0 +1,32 @@
+#projectContainer {
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  width: 100%;
+  padding: 48px;
+  gap: 16px;
+  background-color: #dcdcdc;
+  color: black;
+}
+
+#projectContainer > div {
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 400px;
+  height: 300px;
+  padding: 16px;
+  border-radius: 12px;
+  // todo
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1),
+    -1px -1px 1px rgba(122, 120, 255, 0.15);
+  transition: all 0.15s ease-in;
+}
+
+#projectContainer > div:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
